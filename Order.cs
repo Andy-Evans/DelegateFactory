@@ -14,7 +14,7 @@ namespace TestApp
 
         public override void AddOrder(int orderNo)
         {
-            Console.WriteLine(String.Format("Order No {0} Added", orderNo));
+            Console.WriteLine(String.Format("Order No {0} Added.", orderNo));
         }
     }
 }
