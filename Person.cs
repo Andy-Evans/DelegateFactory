@@ -11,7 +11,7 @@ namespace TestApp
 
         public Person(OrderBase.Factory factory)
         {
-            Console.WriteLine("Person Constructor");
+            Console.WriteLine("Person Constructor invoked");
             this.factory = factory;
         }
 
