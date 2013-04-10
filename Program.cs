@@ -11,7 +11,7 @@ namespace TestApp
         {
             new Person(() => new Order()).OrderRequest();
 
-            Console.WriteLine("Order Processing Complete");
+            Console.WriteLine("Order Processing Completed");
             Console.ReadKey();
         }
     }
